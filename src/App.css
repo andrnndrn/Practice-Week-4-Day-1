@@ -1,0 +1,183 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Header.css */
+.header-content {
+  background-color: #1a2a5a;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+
+.header-content h2 {
+  color: #ff4c60;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-between;
+}
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  cursor: pointer;
+  color: black
+}
+.get-in-touch {
+  background-color: #ff4c60;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* AboutSection.css */
+.about-section {
+  display: flex;
+  padding: 4rem 10rem;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.about-image img {
+  height: 20%;
+}
+.about-text h3 {
+  color: #ff4c60;
+}
+.about-text h2 {
+  color: #1a2a5a;
+  font-size: 2.5rem;
+  margin: 0;
+}
+.contact-info {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* TeamSection.css */
+.team-section {
+  padding: 2rem;
+  text-align: center;
+}
+.team-section h3 {
+  color:#ff4c60;
+}
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  justify-content: center;
+  padding : 0 10%;
+}
+.team-member {
+  text-align: center;
+}
+.team-member img {
+  border-radius: 5%;
+  width: 100%;
+}
+
+/* INFO */
+.info {
+  background-color: #1a2a5a;
+  color: white;
+  padding: 2rem;
+  margin: 4rem 20rem;
+  border-radius: 10px;
+  gap: 1rem;
+  display: flex;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 0 8rem;
+}
+
+/* About Us */
+.container {
+  display: flex;
+  background-color: #1a2a5a;
+  color: white;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.line {
+  border: 2px solid #ff4c60;
+  width: 50px;
+  border-radius: 5px;
+}
+.container h2 {
+  font-size: 25px;
+}
+.container p {
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.services ul{
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.services li {
+  margin-top: 15px;
+}
+.career h3 {
+  color: #ff4c60;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.career p {
+margin-top: 5px;
+}
+.subscribe button {
+  justify-content: end;
+}
+.subscribe-form input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  color: black;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+.container-button {
+  display: flex;
+  justify-content: end;
+}
+.submit {
+  background-color: #ff4c60;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
